@@ -60,7 +60,35 @@
 /*Live sidebar */
 .sidebar #sidebar-toggler {
     display: none;
+    width: 24px;
+    height: 60px;
+    border-radius: 0 5px 5px 0;
+    background: var(--sideColor);
+    border: none;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
 }
+
+.sidebar #f1 {
+    width: 2px;
+    height: 10px;
+    background: var(--gray);
+}
+
+.sidebar #f2 {
+    width: 2px;
+    height: 10px;
+    background: var(--gray);
+}
+
+.sidebar #f3 {
+    width: 2px;
+    height: 10px;
+    background: var(--gray);
+}
+
 
 @media (max-width: 900px) {
     .sidebar {
