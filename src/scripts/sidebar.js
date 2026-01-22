@@ -1,0 +1,11 @@
+function initSidebar() {
+    const sidebar = document.querySelector("aside.sidebar")
+    const sidebarToggler = document.querySelector("#sidebar-toggler")
+
+    sidebarToggler.addEventListener("click", () => {
+        sidebar.classList.toggle("show")
+    })
+
+}
+
+export default initSidebar
