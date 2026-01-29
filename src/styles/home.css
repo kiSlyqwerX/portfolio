@@ -9,3 +9,10 @@
         font-size: 38px;
     }
 }
+
+@media (max-width: 1024px) {
+    .hero h1 {
+        color: var(--white);
+        font-size: 32px;
+    }
+}
