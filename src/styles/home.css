@@ -1,3 +1,11 @@
 .hero h1 {
     color: var(--white);
+    font-size: 48px;
+}
+
+@media (max-width: 1440px) {
+    .hero h1 {
+        color: var(--white);
+        font-size: 38px;
+    }
 }
