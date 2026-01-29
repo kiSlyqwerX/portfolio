@@ -5,7 +5,6 @@ function initSidebar() {
     sidebarToggler.addEventListener("click", () => {
         sidebar.classList.toggle("show")
     })
-
 }
 
 export default initSidebar

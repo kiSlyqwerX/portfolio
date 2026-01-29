@@ -123,6 +123,7 @@
         max-width: 280px;
         width: 100%;
         transition: all 0.3s;
+        z-index: 10;
     }
 
     .sidebar.show {
