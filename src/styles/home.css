@@ -1,20 +1,5 @@
 .hero h1 {
     color: var(--white);
-    font-size: 48px;
-}
-
-@media (max-width: 1440px) {
-    .hero h1 {
-        color: var(--white);
-        font-size: 38px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .hero h1 {
-        color: var(--white);
-        font-size: 32px;
-    }
 }
 
 .skills__list {
@@ -40,31 +25,22 @@
 }
 
 .skills h2 {
-    font-size: 38px;
     margin-left: 20px !important;
 }
 
 .skills h3 {
     margin-top: 36px;
     margin-bottom: 18px;
-    font-size: 24px;
 }
 
 .skills h4 {
-    font-size: 18px;
     font-weight: 400;
     color: var(--text-secondary);
     margin-top: 8px;
 }
 
-@media (max-width: 1440px) {
-
-}
-
-@media (max-width: 1024px) {
-
-}
-
 @media (max-width: 768px) {
-
+    .skills__item {
+        width: 80px;
+    }
 }
