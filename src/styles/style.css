@@ -12,6 +12,7 @@
     --backColor: #2b2a3a;
     --sideColor: #1d2134;
     --white: #fff;
+    --text-secondary: #cdcdcd;
     --gray: #696969;
     --accent: #03ff7e;
 }
@@ -129,17 +130,6 @@ main {
     font-weight: 400;
 }
 
-.stack_img {
-    width: 50px;
-    height: 50px;
-}
-
-.code_lang {
-    display: flex;
-    gap: 30px;
-    text-align: center;
-}
-
 @media (max-width: 1440px) {
 
     .tag {
@@ -201,8 +191,6 @@ main {
         font-size: 10px;
     }
 }
-
-
 
 .tag-3>*:not(.tag-symbol) {
     margin-left: 20px;
