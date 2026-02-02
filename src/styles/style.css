@@ -13,6 +13,7 @@
     --backColor: #2b2a3a;
     --sideColor: #1d2134;
     --white: #fff;
+    --black: #000;
     --text-secondary: #cdcdcd;
     --gray: #696969;
     --accent: #03ff7e;
@@ -141,8 +142,8 @@ body {
 
 main {
     width: 100%;
-    height: 2000px;
     z-index: 1;
+    height: 5000px;
     padding: 0 20px;
     max-width: 1024px;
     margin: 0 auto;
@@ -236,6 +237,11 @@ main {
     }
 }
 
+
+.tag-3>*:not(.tag-symbol) {
+    margin-left: 20px;
+}
+
 @media (max-width: 768px) {
 
 
@@ -244,19 +250,19 @@ main {
     }
 
     .tag-2 {
-        margin-left: 10px;
+        margin-left: 0;
     }
 
     .tag-3 {
-        margin-left: 10px;
+        margin-left: 0;
     }
 
     .tag-symbol,
     .tag-txt {
         font-size: 10px;
     }
-}
 
-.tag-3>*:not(.tag-symbol) {
-    margin-left: 20px;
+    .tag-3>*:not(.tag-symbol) {
+        margin-left: 0;
+    }
 }
