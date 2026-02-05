@@ -142,39 +142,43 @@
     padding: 10px 0;
 }
 
-form img {
+.contacts form img {
     width: 24px;
     height: 24px;
 }
 
-form {
+.contacts form {
     width: 340px;
 }
 
-textarea {
+.contacts textarea {
     width: 340px;
     resize: none;
 }
 
-input {
+.contacts input {
     width: 160px;
 }
 
-select {
+.contacts select {
     width: 340px;
 }
 
-option {
+.contacts option {
     color: var(--black);
 }
 
-label {
+.contacts label {
     display: block;
 }
 
 .blog_content img {
     width: 150px;
     margin-right: 20px;
+}
+
+.blog_box {
+    margin: 10px 0;
 }
 
 .blog_txt a {
