@@ -129,6 +129,20 @@
 
 }
 
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts .tag-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts h2{
+    max-width: 400px;
+}
+
 .contact_img {
     width: 30px;
     height: 30px;
@@ -140,6 +154,7 @@
     text-decoration: none;
     padding: 10px 0;
 }
+
 
 .contacts form img {
     width: 24px;
