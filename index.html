@@ -4,10 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Yura Fedoryshyn - Full-Stack Developer</title>
+    <meta name="description" content="Yura Fedoryshyn — Full Stack Developer specializing in React, Next.js, Node.js, and MongoDB. I build modern, fast, and reliable web applications from idea to launch. Available for order.">
     <link rel="stylesheet" href="/src/styles/style.css">
     <link rel="stylesheet" href="/src/styles/sidebar.css">
     <link rel="stylesheet" href="/src/styles/home.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
@@ -329,25 +334,34 @@
                             <span class="tag tag-txt">&lt;/h2&gt;</span>
                         </div>
 
-                        <div class="tag tag-3">
+                        <div class="tag tag-3" id="contact_box">
                             <span class="tag-symbol">&lt;form&gt;</span>
-                            <form action="">
+                            <form id="contact_form">
                                 <div class="contacts_row">
                                     <div class="contacts_field">
-                                        <label for="">Name</label>
-                                        <input placeholder="John" class="hover" type="text"
-                                            placeholder="Enter your name">
+                                        <label for="inp_name">Name</label>
+                                        <input required class="hover" type="text" placeholder="Enter your name"
+                                            name="name" id="inp_name">
                                     </div>
 
                                     <div class="contacts_field">
-                                        <label for="">Surname</label>
-                                        <input placeholder="Dear" class="hover" type="text"
-                                            placeholder="Enter your surname">
+                                        <label for="inp_surname">Surname</label>
+                                        <input required class="hover" type="text" placeholder="Enter your surname"
+                                            name="surname" id="inp_surame">
                                     </div>
                                 </div>
+
+                                <div class="contacts_row">
+                                    <div class="contacts_field">
+                                        <label for="inp_contact">Email/Phone</label>
+                                        <input required class="hover" type="text" placeholder="Enter your contact"
+                                            name="contact" id="inp_contact">
+                                    </div>
+                                </div>
+
                                 <div class="contacts_describe">
-                                    <label for="" placeholder="Choose a project type">Project type</label>
-                                    <select class="hover" name="" id="">
+                                    <label for="inp_select" placeholder="Choose a project type">Project type</label>
+                                    <select class="hover" required name="projectType" id="inp_select">
                                         <option value="Business Card Website">Business Card Website</option>
                                         <option value="Landing Page">Landing Page</option>
                                         <option value="Corporate Websiter">Corporate Website</option>
@@ -358,8 +372,9 @@
                                     </select>
                                 </div>
                                 <div class="contact_comment">
-                                    <label for="">Leave a comment</label>
-                                    <textarea placeholder="Text.." rows="5" class="hover" name="" id=""></textarea>
+                                    <label for="inp_comment">Leave a comment</label>
+                                    <textarea placeholder="Text.." rows="5" class="hover" name="comment"
+                                        id="inp_comment"></textarea>
                                 </div>
 
                                 <div class="contacts__bottom">
